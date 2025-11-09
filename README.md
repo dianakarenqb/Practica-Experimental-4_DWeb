@@ -14,7 +14,7 @@ API desarrollada con Node.js, Express y PostgreSQL para registrar y listar usuar
 
 2. Instalar dependencias necesarias con npm install
    ```bash
-   npm install express cors pg.
+   npm install express cors pg
 
 3. Configurar base de datos PostgreSQL
    ```bash
