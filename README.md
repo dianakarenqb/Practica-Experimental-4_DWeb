@@ -13,29 +13,31 @@ API desarrollada con Node.js, Express y PostgreSQL para registrar y listar usuar
    cd taxis-coop-api
 
 2. Instalar dependencias necesarias con npm install
-
-npm install express cors pg.
+   ```bash
+   npm install express cors pg.
 
 3. Configurar base de datos PostgreSQL
+   ```bash
+   CREATE DATABASE usuarios_db;
 
-CREATE DATABASE usuarios_db;
-CREATE TABLE usuarios (
-  id SERIAL PRIMARY KEY,
-  nombre VARCHAR(50),
-  correo VARCHAR(100),
-  contraseña VARCHAR(100)
-);
+   CREATE TABLE usuarios (
+     id SERIAL PRIMARY KEY,
+     nombre VARCHAR(50),
+     correo VARCHAR(100),
+     contraseña VARCHAR(100)
+   );
 
 4. Crear archivo .env con credenciales
-
-PGHOST=localhost
-PGUSER=postgres
-PGPASSWORD=contraseña
-PGDATABASE=usuarios_db
-PGPORT=5432
+   ```bash
+   PGHOST=localhost
+   PGUSER=postgres
+   PGPASSWORD=contraseña
+   PGDATABASE=usuarios_db
+   PGPORT=5432
 
 5. Ejecuta el servidor
-node server.js
+   ```bash
+   node server.js
 
 6. Probar los endpoints
 
@@ -43,7 +45,7 @@ node server.js
 - POST http://localhost:3000/usuarios
 - GET http://localhost:3000/usuarios
 
-#📦 Tecnologías usadas
+# 📦 Tecnologías usadas
 
 - Node.js
 - Express
@@ -51,5 +53,5 @@ node server.js
 - dotenv
 - cors
 
-💡 Autor
+# 💡 Autor
 Diana Karen Quintana Barreto
