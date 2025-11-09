@@ -1,11 +1,11 @@
 # Práctica Experimental 4 - Desarrollo Web
  Tema: Lenguaje del lado del servidor (Back-End con Node.js y PostgreSQL)
 
-# 🚖 API REST Cooperativa FEDOTAXI
+# API REST Cooperativa FEDOTAXI
 
 API desarrollada con Node.js, Express y PostgreSQL para registrar y listar usuarios.
 
-## 🚀 Instalación
+## Instalación
 
 1. Clonar el repositorio:
    ```bash
@@ -45,7 +45,7 @@ API desarrollada con Node.js, Express y PostgreSQL para registrar y listar usuar
 - POST http://localhost:3000/usuarios
 - GET http://localhost:3000/usuarios
 
-# 📦 Tecnologías usadas
+# Tecnologías usadas
 
 - Node.js
 - Express
@@ -53,5 +53,5 @@ API desarrollada con Node.js, Express y PostgreSQL para registrar y listar usuar
 - dotenv
 - cors
 
-# 💡 Autor
+# Autor
 Diana Karen Quintana Barreto
